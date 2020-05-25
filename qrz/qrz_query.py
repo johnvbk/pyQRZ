@@ -4,7 +4,7 @@
 import os
 import requests
 import xmltodict
-from ConfigParser import SafeConfigParser
+from configparser import SafeConfigParser
 
 
 class QRZerror(Exception):

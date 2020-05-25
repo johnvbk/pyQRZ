@@ -1,7 +1,7 @@
 from __future__ import print_function
 from __future__ import print_function
 from __future__ import print_function
-from qrz import QRZ
+from qrz.qrz_query import QRZ
 
 
 def print_keys(key_names, query_result):

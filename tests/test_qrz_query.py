@@ -5,7 +5,7 @@ import unittest
 sys.path.insert(0, os.path.abspath('..'))
 
 # noinspection PyPep8
-from qrz import QRZ, CallsignNotFound
+from qrz.qrz_query import QRZ, CallsignNotFound
 
 
 VALID_SESSION = """
